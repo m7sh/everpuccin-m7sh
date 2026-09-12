@@ -1,23 +1,35 @@
-[primary]
-background  = "#131515"
-foreground  = "#F1E4C2"
+mode = "dark"
 
-[normal]
-black       = "#131515"
-red         = "#f16e65"
-green       = "#b6c36f"
-yellow      = "#ef944d"
-blue        = "#a5cab8"
-magenta     = "#e9869a"
-cyan        = "#8ecd84"
-white       = "#e5d5b1"
+# Everpuccin palette, adapted from the supplied terminal theme.
+accent = "#a5cab8"
+selection = "#393939"
+muted = "#393939"
 
-[bright]
-black       = "#393939"
-red         = "#eb7a73"
-green       = "#b9c675"
-yellow      = "#efbe71"
-blue        = "#8dbba3"
-magenta     = "#e396a4"
-cyan        = "#99c792"
-white       = "#F1E4C2"
+background = "#131515"
+dark_background = "#0f1010"
+darker_background = "#0b0c0c"
+lighter_background = "#1f2223"
+
+foreground = "#F1E4C2"
+dark_foreground = "#a19983"
+light_foreground = "#e5d5b1"
+bright_foreground = "#F1E4C2"
+
+hyprland_active_border = "rgba(a5cab8ff) rgba(e9869aff) 90deg"
+hyprland_inactive_border = "rgba(393939cc)"
+
+red = "#f16e65"
+yellow = "#ef944d"
+orange = "#efbe71"
+green = "#b6c36f"
+cyan = "#8ecd84"
+blue = "#a5cab8"
+magenta = "#e9869a"
+brown = "#A19983"
+
+bright_red = "#eb7a73"
+bright_yellow = "#efbe71"
+bright_green = "#b9c675"
+bright_cyan = "#99c792"
+bright_blue = "#8dbba3"
+bright_magenta = "#e396a4"
