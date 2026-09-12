@@ -11,14 +11,11 @@ hl.config({
   },
 
   decoration = {
-    rounding = 8,
+    rounding = 0,
     active_opacity = 1.0,
-    inactive_opacity = 0.98,
+    inactive_opacity = 1.0,
     shadow = {
-      enabled = true,
-      range = 14,
-      render_power = 3,
-      color = "rgba(10121288)",
+      enabled = false,
     },
     blur = {
       enabled = true,
@@ -35,3 +32,6 @@ hl.config({
     },
   },
 })
+
+-- Transparency for Nautilus (Files)
+o.window("^(org\\.gnome\\.Nautilus|nautilus)$", { tag = "-default-opacity", opacity = "0.90 0.85" })

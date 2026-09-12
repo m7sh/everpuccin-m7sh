@@ -9,7 +9,8 @@ Featuring deep woodland slate surfaces, creamy parchment typography, signature s
 ## ✨ Features
 
 - **Window Borders**: Smooth 90° gradient transitioning from **Sage Green** (`rgba(A7C080ff)`) to **Dusty Rose** (`rgba(D699B6ff)`).
-- **Subtle Rounding & Shadows**: 8px rounded corners with deep, soft ambient drop shadows and Wayland background blur.
+- **Sharp Modern Look**: Zero-rounding borders (`rounding = 0`) for a crisp, clean tiling window aesthetic with Wayland background blur.
+- **Transparent File Manager**: Native opacity (`0.90 0.85`) and blur for Nautilus (Files) matching terminal surfaces.
 - **Deep Woodland Slate**: `#181B1B` base with `0.90` opacity and blur across terminals and popups.
 - **Creamy Parchment Typography**: Warm `#E7DECD` text designed for soothing readability during late-night coding.
 - **Curated 4K Wallpapers**: Beautiful high-resolution 3840x2160 wallpapers included in `backgrounds/`.
