@@ -18,10 +18,7 @@ hl.config({
       enabled = false,
     },
     blur = {
-      enabled = true,
-      size = 6,
-      passes = 3,
-      vibrancy = 0.1696,
+      enabled = false,
     },
   },
 
@@ -33,5 +30,6 @@ hl.config({
   },
 })
 
--- Transparency for Nautilus (Files)
-o.window("^(org\\.gnome\\.Nautilus|nautilus)$", { tag = "-default-opacity", opacity = "0.90 0.85" })
+-- Transparency for Nautilus (Files) matching terminal opacity (clean, no blur)
+hl.window_rule({ match = { class = "org.gnome.Nautilus" }, opacity = "0.82 0.76 override" })
+hl.window_rule({ match = { class = "nautilus" }, opacity = "0.82 0.76 override" })
