@@ -4,6 +4,8 @@ local inactive_border_color = "rgba(232A2Eaa)"
 
 hl.config({
   general = {
+    gaps_in = 1,
+    gaps_out = 1,
     col = {
       active_border = active_border_color,
       inactive_border = inactive_border_color,
@@ -30,6 +32,3 @@ hl.config({
   },
 })
 
--- Transparency for Nautilus (Files) matching terminal opacity (clean, no blur)
-hl.window_rule({ match = { class = "org.gnome.Nautilus" }, opacity = "0.82 0.76 override" })
-hl.window_rule({ match = { class = "nautilus" }, opacity = "0.82 0.76 override" })
